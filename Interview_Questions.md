@@ -1,4 +1,46 @@
-Great question! In software development, **"build code"** refers to the process of transforming human-readable source code into a format that a computer can execute. Here's what that typically involves:
+AppScan performs **dynamic application security testing (DAST)**, which means it scans running applications—typically web or mobile apps—to detect vulnerabilities from the outside, just like a hacker would. Here's how it works and what kinds of security issues it targets:
+
+---
+
+### 🔍 How AppScan Performs a Security Scan
+
+AppScan’s **Full Scan** consists of two main stages:
+
+#### 1. **Explore Stage**
+- Simulates a user navigating the app: clicking links, filling forms, submitting data.
+- Analyzes responses from the app to identify potential vulnerabilities.
+- Sends malformed requests to understand how the app handles errors.
+- Builds custom tests based on the app’s behavior.
+
+#### 2. **Test Stage**
+- Executes thousands of automated security tests.
+- Uses validation rules to detect and rank vulnerabilities.
+- May repeat in multiple phases if new links or behaviors are discovered during testing.
+
+---
+
+### 🛡️ Types of Security Vulnerabilities Detected
+
+AppScan targets a wide range of issues, including:
+
+- **OWASP Top 10** vulnerabilities:
+  - SQL Injection
+  - Cross-Site Scripting (XSS)
+  - Broken Authentication
+  - Security Misconfigurations
+- **Logic flaws** and **input validation errors**
+- **Sensitive data exposure**
+- **Improper error handling**
+- **Access control issues**
+
+It also helps with **compliance checks** for standards like PCI-DSS, HIPAA, and SOX.
+
+---
+
+### 🧠 Why It’s Valuable
+AppScan mimics real-world attack scenarios without needing access to the source code. It’s especially useful in CI/CD pipelines to catch vulnerabilities early—before code hits production.
+
+Would you like to see how AppScan compares to other tools like SonarQube or Burp Suite?
 
 ### 🛠️ What "Build Code" Means
 
