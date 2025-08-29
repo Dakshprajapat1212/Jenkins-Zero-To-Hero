@@ -1,3 +1,28 @@
+Great question! In software development, **"build code"** refers to the process of transforming human-readable source code into a format that a computer can execute. Here's what that typically involves:
+
+### 🛠️ What "Build Code" Means
+
+- **Compilation**: Turning source code (like Java, C++, etc.) into machine code or bytecode using a compiler.
+- **Linking**: Combining different code modules and libraries into one executable program.
+- **Packaging**: Wrapping everything into a deployable format—like a `.exe`, `.jar`, or `.zip` file.
+- **Testing**: Running automated tests to ensure the code works as expected.
+- **Deployment Prep**: Getting the software ready to be installed or deployed to a server or device.
+
+### 📦 Example
+Imagine you're writing a mobile app. You write the code in a language like Kotlin or Swift. When you "build" the app:
+- The code is compiled.
+- Resources like images and layouts are bundled.
+- The final product is an `.apk` or `.ipa` file ready to install.
+
+### 🔁 Why It's Important
+Building code helps developers:
+- Catch errors early through automated tests.
+- Create consistent versions of software.
+- Prepare software for different platforms (Windows, Android, iOS, etc.).
+
+Want to dive into how build tools like Maven, Gradle, or Jenkins fit into this process?
+
+
 ## NOTE: While I have prepared all the questions, to provide better answers in a detailed way, the summary provided below is the collection of my knowledge and information from various sources like Medium, Stack Overflow, ChatGPT.
 
 Q: Can you explain the CICD process in your current project ? or Can you talk about any CICD process that you have implemented ?
